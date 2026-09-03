@@ -1,14 +1,12 @@
 # job-queue-scheduler
 
-> A complete, tested utility for canonical hashing and digesting of JSON values.
+> Interval and cron-style job scheduler with overlap prevention, deterministic clock injection, and execution history.
 
-A complete, tested building block for the Retsumdk ecosystem. Small surface, explicit behavior, zero hidden state — reviewed in minutes, trusted in production.
+### What it is
 
-## Features
+Job-queue scheduler: interval / cron-style scheduling with dedupe.
 
-- Deterministic, stable normalization of JSON-serializable input
-- SHA-256 digesting over a canonical form
-- Structured, validated result shape with a passing test suite
+Real, working Python for the Retsumdk ecosystem with an executable test suite.
 
 ## Getting started
 
